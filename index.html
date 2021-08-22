@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Video Recorder App</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Start your video</h1>
+        <video id="gum" playsinline autoplay muted></video>
+        <video id="recorded" playsinline loop></video>
+
+        <div id="button">
+            <button id="start">Start camera</button>
+            <button id="record" disabled>Record</button>
+            <button id="play" disabled>Play</button>
+            <button id="download" disabled>Download</button>
+        </div>
+
+        <div>
+            <h4>Media Stream Constraints options</h4>
+            <p>
+                Echo cancellation: <input type="checkbox" id="echoCancellation" />
+            </p>
+        </div>
+
+        <div>
+            <span id="errorMsg"></span>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
