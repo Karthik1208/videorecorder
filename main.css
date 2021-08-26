@@ -42,17 +42,3 @@ video:last-of-type {
 video#gumVideo {
     margin: 40px 20px 20px 40px;
 }
-@media screen and(max-width:600px){
-    video:last-of-type {
-    margin: 0 0 20px 0;
-}
-
-video#gumVideo {
-    margin: 40px 40px 40px 40px;
-    }
-    video#recorded{
-    width:400px;
-    height:auto;}
-    
-}
-
