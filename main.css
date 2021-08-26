@@ -42,4 +42,12 @@ video:last-of-type {
 video#gumVideo {
     margin: 40px 20px 20px 40px;
 }
+@media screen and(max-width:600px){
+    video {
+    vertical-align: top;
+    --width: 35vw;
+    width: var(--width);
+    height: calc(var(--width) * 0.1625);
+}
+}
 
