@@ -47,7 +47,7 @@ video#gumVideo {
     vertical-align: top;
     --width: 75vw;
     width: var(--width);
-    height: calc(var(--width) * 0.1625);
+    height: calc(var(--width) * 0.9625);
 }
 }
 
