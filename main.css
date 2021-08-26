@@ -50,6 +50,9 @@ video#gumVideo {
 video#gumVideo {
     margin: 40px 40px 40px 40px;
     }
+    video#recorded{
+    width:400px;
+    height:auto;}
     
 }
 
